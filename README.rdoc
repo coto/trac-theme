@@ -7,3 +7,7 @@
 = Installation
 
  bash bash_script/install
+
+= Upload to your server
+
+ scp -r -P PORT ./trac-theme/* USER@IP:/home/USER
