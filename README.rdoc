@@ -16,6 +16,6 @@
 
 Trac is an open source, web-based project management and bug-tracking tool. The program is inspired by CVSTrac, and was originally named svntrac due to its ability to interface with Subversion.
 
-Trac allows hyperlinking information between a computer bug database, revision control and wiki content. It also serves as a web interface to the revision control systems Subversion, Git, Mercurial, Bazaar, Perforce and Darcs. Prior to version 0.11 the web front end presentation of Trac was handled by the ClearSilver template system. Starting with 0.11 an in-house template system called Genshi is used, although compatibility with ClearSilver based plugins will remain for several versions.[3]
+Trac allows hyperlinking information between a computer bug database, revision control and wiki content. It also serves as a web interface to the revision control systems Subversion, Git, Mercurial, Bazaar, Perforce and Darcs. Prior to version 0.11 the web front end presentation of Trac was handled by the ClearSilver template system. Starting with 0.11 an in-house template system called Genshi is used, although compatibility with ClearSilver based plugins will remain for several versions.
 
 source: http://en.wikipedia.org/wiki/Trac
