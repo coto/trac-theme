@@ -18,4 +18,5 @@ sudo cp -r /usr/lib/python2.4/site-packages/$TracVers/trac /mnt/backup/trac_back
 # Put Projects Customization at all
 sudo cp -r ./htdocs /usr/lib/python2.4/site-packages/$TracVers/trac/
 sudo cp -r ./templates /usr/lib/python2.4/site-packages/$TracVers/trac/
+sudo chmod 755 -R /usr/lib/python2.4/site-packages/$TracVers/trac/
 echo "successfully installed"
