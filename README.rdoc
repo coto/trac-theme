@@ -2,13 +2,17 @@
  Author: Rodrigo Augosto C. (coto) <contact@protoboard.cl>
  Twitter: http://twitter.com/coto
  URL: http://protoboard.cl
- Created: Mar 5, 2010 
+ Created: Mar 5, 2010
+
+= Description
+
+ trac-theme is another Trac's Theme that change menu positions, colors and font  
 
 = Installation
 
  bash bash_script/install
 
-= Upload to your server
+= How to upload to your server
 
  scp -r -P PORT ./trac-theme/* USER@IP:/home/USER
 
@@ -19,3 +23,6 @@ Trac is an open source, web-based project management and bug-tracking tool. The 
 Trac allows hyperlinking information between a computer bug database, revision control and wiki content. It also serves as a web interface to the revision control systems Subversion, Git, Mercurial, Bazaar, Perforce and Darcs. Prior to version 0.11 the web front end presentation of Trac was handled by the ClearSilver template system. Starting with 0.11 an in-house template system called Genshi is used, although compatibility with ClearSilver based plugins will remain for several versions.
 
 source: http://en.wikipedia.org/wiki/Trac
+
+= Licensed under the GPL
+http://www.gnu.org/licenses/gpl.html
