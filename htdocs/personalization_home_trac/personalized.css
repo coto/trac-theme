@@ -12,14 +12,14 @@ body {
 	font-size: 62.5%;
 	margin-top: 5px;
 }
-.heroLeft h3, .sidebarNavigation h3 {
+.heroLeft h3, .heroRight h3, .sidebarNavigation h3 {
 	-moz-background-clip:border;
 	-moz-background-inline-policy:continuous;
 	-moz-background-origin:padding;
 	background:transparent url(images/bak_hero_navigation_header_r.png) no-repeat scroll 100% 0;
 	padding-right:10px;
 }
-.heroLeft h3 span, .sidebarNavigation h3 span {
+.heroLeft h3 span, .heroRight h3 span, .sidebarNavigation h3 span {
 	-moz-background-clip:border;
 	-moz-background-inline-policy:continuous;
 	-moz-background-origin:padding;
@@ -76,8 +76,15 @@ ul.heroNavigation ul li a:hover {
 }
 .heroLeft{
 	position: absolute;
-	top: 170px;
+	top: 100px;
 	left: 40px;
+	width: 250px;
+}
+.heroRight{
+	position: absolute;
+	top: 310px;
+	left: 40px;
+	width: 250px;
 }
 #footer{
 	padding-left: 10px;

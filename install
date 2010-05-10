@@ -15,7 +15,9 @@ datetime=$(date +%Y%m%d%H%M%S)
 sudo mkdir -p /mnt/backup/trac_backup_$datetime
 sudo cp -r /usr/lib/python2.4/site-packages/$TracVers/trac /mnt/backup/trac_backup_$datetime/$TracVers
 
+####################################################################
 # Put Projects Customization at all
+####################################################################
 sudo cp -r ./htdocs /usr/lib/python2.4/site-packages/$TracVers/trac/
 sudo cp -r ./templates /usr/lib/python2.4/site-packages/$TracVers/trac/
 sudo chmod 755 -R /usr/lib/python2.4/site-packages/$TracVers/trac/

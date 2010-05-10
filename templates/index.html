@@ -6,10 +6,10 @@
       xmlns:xi="http://www.w3.org/2001/XInclude">
   <head>
     <title>Available Projects on Protoboard</title>
-	<link rel="shortcut icon" href="/protoboard/chrome/common/trac.ico" type="image/x-icon" />
-    <link rel="icon" href="/protoboard/chrome/common/trac.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/myoutgo/chrome/common/trac.ico" type="image/x-icon" />
+    <link rel="icon" href="/myoutgo/chrome/common/trac.ico" type="image/x-icon" />
     
-	<link href="/protoboard/chrome/common/personalization_home_trac/personalized.css" rel="stylesheet" type="text/css" />
+	<link href="/myoutgo/chrome/common/personalization_home_trac/personalized.css" rel="stylesheet" type="text/css" />
 	<meta name="robots" content="noindex, nofollow" />
 	<script type="text/javascript">
 	function hasClass(ele,cls) {
@@ -25,16 +25,16 @@
 		}
 	}
 
-	backs = ["1227920142561.jpeg"];
+	backs = ["1223287779413.jpeg", "1223287789692.jpeg", "1223299128959.jpeg", "1227920142561.jpeg", "1227944208161.jpeg", "1227965332814.jpeg"];
 	</script>  
   </head>
 
 <body>
 	<div id="container">
-		<div id="header"><img src="/protoboard/chrome/common/personalization_home_trac/trac_logo.png" /></div>
+		<div id="header"><img src="/myoutgo/chrome/common/personalization_home_trac/trac_logo.png" /></div>
 		<div id="Content">
 			<div class="heroLeft">
-				<h3><span>Available Projects on Trac</span></h3>
+				<h3><span>Projects on Trac</span></h3>
 				<ul class="heroNavigation ui-accordion">
 				<li>
 					<ul>
@@ -49,6 +49,23 @@
 				</li>
 				</ul>
 			</div>
+
+
+			<div class="heroRight">
+			<h3><span>Projects on Github.com</span></h3>
+			<ul class="heroNavigation ui-accordion">
+			<li>
+			<ul>
+				<li><a href="http://github.com/coto/code-jam" title="Google Code Jam">Code Jam</a></li>
+				<li><a href="http://github.com/coto/trac-theme" title="Trac Theme">Trac Theme</a></li>
+				<li><a href="http://github.com/coto/fast-easy-server-install" title="fast-easy-server-install">Fast &amp; Easy Server Install</a></li>
+				<li><a href="http://github.com/coto/code-jam" title="jQuery Plugin fontsizer">fontSizer</a></li>
+			</ul>
+			</li>
+			</ul>
+			</div>
+			
+			
 		</div>
 		<div id="footer">
 			<a href="http://python.org">
@@ -59,7 +76,7 @@
 	<script type="text/javascript">
 		var content = document.getElementById("Content");
 		rdm_index = Math.floor(Math.random()*backs.length);
-		content.style.background = "transparent url('/protoboard/chrome/common/personalization_home_trac/backgrounds/" +  backs[rdm_index] + "') 0 0 no-repeat";
+		content.style.background = "transparent url('/myoutgo/chrome/common/personalization_home_trac/backgrounds/" +  backs[rdm_index] + "') 0 0 no-repeat";
 		
 		addClass(content, "back_" + Math.floor(rdm_index));
 	</script>
